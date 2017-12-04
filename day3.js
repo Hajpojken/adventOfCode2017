@@ -73,8 +73,5 @@ function day3B (arg) {
     }
     return a+b+c+d+e+f+g+h+i
   }
-  console.log(matrix[x][y])
   return(matrix[x][y])
 }
-
-day3B(746)

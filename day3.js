@@ -17,9 +17,8 @@ function day3A (arg){
   const west = corner2 - distans
   const north = corner3 - distans
   const east = corner4 - distans
-
-  a = Math.min(Math.abs(south-arg), Math.abs(west-arg), Math.abs(north-arg), Math.abs(east-arg))
-  return (i + a - 1)
+  
+  return (i + (Math.min(Math.abs(south-arg), Math.abs(west-arg), Math.abs(north-arg), Math.abs(east-arg)) - 1)
 }
 
 function day3B (arg) {
